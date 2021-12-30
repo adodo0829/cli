@@ -1,0 +1,39 @@
+{
+  "name": "huge-cli",
+  "version": "1.0.16",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "huge-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "huge-cli": "huge-cli",
+    "publish": "node utils/publish.js"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^8.3.0",
+    "download": "^8.0.0",
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "log-symbols": "4.1.0",
+    "ora": "4.0.3",
+    "update-notifier": "^5.1.0",
+    "download-git-repo": "^3.0.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appleguardu/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "adodo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appleguardu/cli/issues"
+  },
+  "homepage": "https://github.com/appleguardu/cli#readme"
+}
