@@ -1,6 +1,6 @@
 {
   "name": "huge-cli",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "description": "",
   "main": "./bin/index.js",
   "bin": {
@@ -10,7 +10,6 @@
     "huge-cli": "huge-cli",
     "publish": "node utils/publish.js"
   },
-  
   "devDependencies": {
     "chalk": "^4.1.0",
     "commander": "^8.3.0",
