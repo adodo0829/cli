@@ -1,18 +1,15 @@
 {
   "name": "huge-cli",
-  "version": "1.0.21",
+  "version": "1.0.26",
   "description": "",
   "main": "./bin/index.js",
   "bin": {
     "huge-cli": "./bin/index.js"
   },
-  "scripts": {
-    "huge-cli": "huge-cli",
-    "publish": "node bin/publish.js"
-  },
+  "scripts": {},
   "dependencies": {
     "chalk": "^4.1.0",
-    "commander": "^8.3.0",
+    "commander": "^5.0.0",
     "download": "^8.0.0",
     "download-git-repo": "^3.0.2",
     "fs-extra": "^10.0.0",
