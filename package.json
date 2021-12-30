@@ -10,6 +10,7 @@
     "huge-cli": "huge-cli",
     "publish": "node utils/publish.js"
   },
+  
   "devDependencies": {
     "chalk": "^4.1.0",
     "commander": "^8.3.0",
