@@ -7,5 +7,3 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
-yarn.lock
-package-lock.json

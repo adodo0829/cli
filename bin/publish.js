@@ -1,5 +1,5 @@
 const { writeFileSync } = require('fs')
-const { execSync } = require('child_process')
+const child_process = require('child_process')
 const pkg = require('../package.json')
 
 const cpPkg = { ...pkg }
@@ -8,7 +8,8 @@ cpPkg.version = handleType(pkg.version)
 try {
   // 修改版本号
   writeFileSync('package.json', JSON.stringify(cpPkg, null, 2))
-  execSync(`npm publish --access public`)
+  console.log('pkg is publish...')
+  child_process.execSync(`npm publish`)
 } catch (error) {
   console.log('=== 更新失败 ===')
 }

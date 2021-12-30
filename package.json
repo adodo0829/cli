@@ -1,6 +1,6 @@
 {
   "name": "huge-cli",
-  "version": "1.0.18",
+  "version": "1.0.21",
   "description": "",
   "main": "./bin/index.js",
   "bin": {
@@ -8,21 +8,21 @@
   },
   "scripts": {
     "huge-cli": "huge-cli",
-    "publish": "node utils/publish.js"
+    "publish": "node bin/publish.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^8.3.0",
     "download": "^8.0.0",
+    "download-git-repo": "^3.0.2",
     "fs-extra": "^10.0.0",
     "handlebars": "^4.7.7",
     "inquirer": "^8.2.0",
     "log-symbols": "4.1.0",
     "ora": "4.0.3",
-    "update-notifier": "^5.1.0",
-    "download-git-repo": "^3.0.2"
+    "update-notifier": "^5.1.0"
   },
-  "dependencies": {},
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/appleguardu/cli.git"
